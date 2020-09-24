@@ -1,0 +1,122 @@
+[Root]
+Most Recent Package=Import CSV
+Most Recent Deploy=Import CSV Deploy
+
+
+[Package|Import CSV|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Documents and Settings\Administrator.BUGS\Desktop\Import CSV\Package
+
+[Package|Import CSV|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Import CSV|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Import CSV|Files Found]
+
+[Package|Import CSV|Files Released]
+
+[Package|Import CSV|Missing Dependency Information]
+C:\Program Files\Microsoft Office\Office10\EXCEL.EXE=
+C:\Program Files\Common Files\System\ado\msado20.tlb=
+
+[Package|Import CSV|Out-of-Date Dependency Information]
+C:\WINNT\system32\COMCT332.OCX=
+C:\WINNT\system32\scrrun.dll=
+C:\WINNT\system32\msstdfmt.dll=
+
+[Package|Import CSV|Files Added]
+
+[Package|Import CSV|Files Removed]
+
+[Package|Import CSV|Files In Project]
+C:\Documents and Settings\Administrator.BUGS\Desktop\Import CSV\Import_CSV.exe=Yes
+C:\WINNT\system32\MSVBVM60.DLL=Yes
+C:\WINNT\system32\OLEAUT32.DLL=Yes
+C:\WINNT\system32\OLEPRO32.DLL=Yes
+C:\WINNT\system32\ASYCFILT.DLL=Yes
+C:\WINNT\system32\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Common Files\System\ado\msado20.tlb=Yes
+C:\WINNT\system32\MSBIND.DLL=Yes
+C:\WINNT\system32\msstdfmt.dll=Yes
+C:\WINNT\system32\scrrun.dll=Yes
+C:\WINNT\system32\msvcrt.dll=Yes
+C:\Program Files\Microsoft Office\Office10\EXCEL.EXE=Yes
+C:\WINNT\system32\MSDATGRD.OCX=Yes
+C:\WINNT\system32\MSADODC.OCX=Yes
+C:\WINNT\system32\COMDLG32.OCX=Yes
+C:\WINNT\system32\MSCOMCTL.OCX=Yes
+C:\WINNT\system32\COMCT332.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Import CSV|Configure Registry Files]
+Applicable=No
+
+[Package|Import CSV|Configure Remote Servers]
+Applicable=No
+
+[Package|Import CSV|Install Locations]
+C:\Documents and Settings\Administrator.BUGS\Desktop\Import CSV\Import_CSV.exe=$(AppPath)
+C:\WINNT\system32\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Common Files\System\ado\msado20.tlb=$(WinSysPath)
+C:\WINNT\system32\MSBIND.DLL=$(WinSysPath)
+C:\WINNT\system32\msstdfmt.dll=$(WinSysPath)
+C:\WINNT\system32\scrrun.dll=$(WinSysPath)
+C:\WINNT\system32\msvcrt.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Office\Office10\EXCEL.EXE=$(AppPath)
+C:\WINNT\system32\MSDATGRD.OCX=$(WinSysPath)
+C:\WINNT\system32\MSADODC.OCX=$(WinSysPath)
+C:\WINNT\system32\COMDLG32.OCX=$(WinSysPath)
+C:\WINNT\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINNT\system32\COMCT332.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Import CSV|Configure Shared Files]
+Applicable=Yes
+C:\Documents and Settings\Administrator.BUGS\Desktop\Import CSV\Import_CSV.exe=Yes
+C:\Program Files\Microsoft Office\Office10\EXCEL.EXE=No
+
+[Package|Import CSV|Distribution]
+Type=single
+Size=
+Title=Import CSV - Text
+
+[Package|Import CSV|IconGroups]
+Group0=Import CSV
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Import CSV|Import CSV]
+Icon1=Import_CSV.exe
+Title1=Import CSV - Text
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Import CSV|Package]
+PackageFolder=C:\Documents and Settings\Administrator.BUGS\Desktop\Import CSV\Package
+ProjectFolder=C:\Documents and Settings\Administrator.BUGS\Desktop\Import CSV
+ServerSideCab=
+File1=C:\Documents and Settings\Administrator.BUGS\Desktop\Import CSV\Package\setup.exe
+File2=C:\Documents and Settings\Administrator.BUGS\Desktop\Import CSV\Package\Setup.Lst
+File3=C:\Documents and Settings\Administrator.BUGS\Desktop\Import CSV\Package\Import_CSV.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Deploy|Import CSV Deploy|Root]
+Package=Import CSV
+Handler=PDWizard.FolderDplySubWiz
+Folder=C:\Documents and Settings\Administrator.BUGS\Desktop\Import CSV\Deploy
